@@ -23,7 +23,7 @@ Computationally heavier because of the additional compartment and parameters.
 3. Similar to feature importance in machine learning, sensitivity analysis help identify key parameters-for example, β-on which to target public health interventions.
 
 ## Suggestions for future modeling improvements
-1. Add compartments for vaccination or asymptomatic carriers. Incorporate seasonality and time-varying transmission rates to reflect more realistic dynamics.
+1. Add compartments for vaccination or asymptomatic carriers and incorporate seasonality and time-varying transmission rates to reflect more realistic dynamics.
 2. Mechanistic models, like SIR/SEIR combined with machine learning, do a better job of prediction by capturing real-world data patterns.
 3. Add stochastic modeling or Bayesian approaches to account for uncertainty in parameter estimates and predictions.
 4. Extend models to simulate the impact of specific interventions-such as lockdowns and vaccination campaigns-to inform decision-making.
