@@ -19,18 +19,20 @@ Computationally heavier because of the additional compartment and parameters.
 
 
 ## Relevance to model-based machine learning
-1. Parameter Estimation: Both SIR and SEIR models are dependent on parameter tuning: β,γ,σ,μ, which aligns with machine learning optimization techniques.
-2. Model Generalization: Machine learning techniques can be applied in order to learn parameter values from real-world data that improve predictive power for compartmental models.
-3. Sensitivity Analysis: Similar to feature importance in machine learning, sensitivity analysis can help identify key parameters-for example, β-on which to target public health interventions.
+1. Both SIR and SEIR models are dependent on parameter tuning: β,γ,σ,μ, which aligns with machine learning optimization techniques.
+2. Machine learning techniques can be applied in order to learn parameter values from real-world data that improve predictive power for compartmental models (model generalisation).
+3. Similar to feature importance in machine learning, sensitivity analysis help identify key parameters-for example, β-on which to target public health interventions.
 
 ## Suggestions for future modeling improvements
-1. Incorporate Additional Realistic Factors: Add compartments for vaccination or asymptomatic carriers. Incorporate seasonality and time-varying transmission rates to reflect more realistic dynamics.
-2. Hybrid Data-Driven Models: Mechanistic models, like SIR/SEIR combined with machine learning, do a better job of prediction by capturing real-world data patterns.
-3. Uncertainty Quantification: Add stochastic modeling or Bayesian approaches to account for uncertainty in parameter estimates and predictions.
-4. Policy Simulation: Extend models to simulate the impact of specific interventions-such as lockdowns and vaccination campaigns-to inform decision-making.
-5. Multi-Population Models: Model interactions between several regions or demographic groups, which will help capture heterogeneous transmission dynamics.
+1. Add compartments for vaccination or asymptomatic carriers. Incorporate seasonality and time-varying transmission rates to reflect more realistic dynamics.
+2. Mechanistic models, like SIR/SEIR combined with machine learning, do a better job of prediction by capturing real-world data patterns.
+3. Add stochastic modeling or Bayesian approaches to account for uncertainty in parameter estimates and predictions.
+4. Extend models to simulate the impact of specific interventions-such as lockdowns and vaccination campaigns-to inform decision-making.
+5. Model interactions between several regions or demographic groups, which will help capture heterogeneous transmission dynamics.
 
 
 
 
 All the parts and subparts of Question 1 are answered in 'BMI 500 HW 11.ipynb'
+
+Disclaimer: No generative AI (in any form) has been used to complete this homework.
