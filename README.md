@@ -4,16 +4,15 @@ Shoibolina Kaushik (shoibolina.kaushik@emory.edu)
 Question 1
 
 ## Key Insights
-1. SIR vs. SEIR Model Dynamics:
-SIR model captures the basic infection dynamics however, it is less realistic, as there is no exposed compartment. The SEIR model introduces an incubation period, thus leading to smoother infection curves and, under certain conditions, the possibility of multi-wave patterns.
-2. Role of Parameters: The basic reproductive number plays a fundamental role in infection spread and control. Effective interventions targeting β (e.g., social distancing) or increasing γ (e.g., medical care) may decrease infection curves. Sensitivity analysis underlines that the transmission β has a larger impact on infection peaks and totals than the exposed-to-infectious rate σ.
-3. Pandemic Dynamics: Birth and death rates significantly impact long-term infection waves, where higher birth rates would replenish the susceptible population and sustain the waves over time.
+1. SIR model captures the basic infection dynamics however, it is less realistic, as there is no exposed compartment. The SEIR model introduces an incubation period, thus leading to smoother infection curves and, under certain conditions, the possibility of multi-wave patterns.
+2. The basic reproductive number plays a fundamental role in infection spread and control. Effective interventions targeting β (e.g., social distancing) or increasing γ (e.g., medical care) may decrease infection curves. Sensitivity analysis underlines that the transmission β has a larger impact on infection peaks and totals than the exposed-to-infectious rate σ.
+3. Birth and death rates significantly impact long-term infection waves, where higher birth rates would replenish the susceptible population and sustain the waves over time.
 
 ## Comparative model performance
 1. SIR Model: Simpler and computationally efficient for short-term predictions.
    The infection spread pattern in this model is not as realistic, since it doesn't consider any incubation delay.
 
-3. SEIR Model: More realistic in real-world scenarios, considering exposed individuals and births/deaths.
+2. SEIR Model: More realistic in real-world scenarios, considering exposed individuals and births/deaths.
 Capable of modeling multi-wave pandemics; hence, suitable for long-term simulations.
 Computationally heavier because of the additional compartment and parameters.
 
